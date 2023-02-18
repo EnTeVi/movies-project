@@ -1,7 +1,14 @@
+import {Outlet} from "react-router-dom";
+import {Footer, Header, Search, SiteBar} from "../../components";
+
 const MailLayout = () => {
     return (
         <div>
-            MailLayout
+            <Header/>
+            <Search/>
+            <SiteBar/>
+            <Outlet/>
+            <Footer/>
         </div>
     );
 };

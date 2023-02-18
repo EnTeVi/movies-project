@@ -1,7 +1,9 @@
+import {Films} from "../../components";
+
 const FilmsPage = () => {
     return (
         <div>
-            FilmsPage
+            <Films/>
         </div>
     );
 };

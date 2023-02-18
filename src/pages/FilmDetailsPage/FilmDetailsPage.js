@@ -1,4 +1,4 @@
-const FilmsDetailsPage = () => {
+const FilmDetailsPage = () => {
     return (
         <div>
             FilmsDetailsPage
@@ -6,4 +6,4 @@ const FilmsDetailsPage = () => {
     );
 };
 
-export {FilmsDetailsPage};
+export {FilmDetailsPage};

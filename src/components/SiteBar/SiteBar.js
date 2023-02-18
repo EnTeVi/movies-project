@@ -1,7 +1,9 @@
+import {NavLink} from "react-router-dom";
+
 const SiteBar = () => {
     return (
         <div>
-            SiteBar
+            <NavLink to={'films'}>Фільми</NavLink>
         </div>
     );
 };
