@@ -5,3 +5,4 @@ export * from './Header/Header';
 export * from './SiteBar/SiteBar';
 export * from './Search/Search';
 export * from './Footer/Footer';
+export * from './Genres/Genres';

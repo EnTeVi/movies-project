@@ -1,0 +1,26 @@
+.boxFilms {
+    width: 18%;
+    margin: 20px 1%;
+}
+
+.boxFilms img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.boxFilms img:hover {
+    opacity: .6;
+    transform: rotateZ(1deg);
+    width: 99%;
+    box-shadow: var(--box-shadow-film);
+}
+
+.boxFilms a {
+    text-decoration: none;
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px black;
+}

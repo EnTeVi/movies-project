@@ -1,4 +1,5 @@
 import {Outlet} from "react-router-dom";
+
 import {Footer, Header, Search, SiteBar} from "../../components";
 
 const MailLayout = () => {

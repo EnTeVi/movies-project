@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  width: 80%;
+  margin: 100px 0 100px 10%;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-image: var(--background-image-app);
 }
 
 .App-logo {
@@ -36,3 +41,15 @@
     transform: rotate(360deg);
   }
 }
+
+.svg::after {
+  transform: rotateZ(25deg);
+  transition: all 0.6s ease;
+}
+
+.react-switch-handle {
+  cursor: pointer;
+}
+
+
+

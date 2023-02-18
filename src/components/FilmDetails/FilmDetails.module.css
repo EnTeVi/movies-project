@@ -1,0 +1,102 @@
+.blockFilm {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.boxInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoPoster {
+    width: 30%;
+    margin: 20px 1.666666666666667%;
+}
+
+.infoPoster img {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 5px white;
+}
+
+.information {
+    width: 30%;
+    margin: 20px 1.666666666666667%;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 5px white;
+}
+
+.information > div {
+    margin-left: 10px;
+}
+
+.infoBox {
+    display: flex;
+}
+
+.pTitle {
+    width: 20%;
+    color: gray;
+}
+
+.boxBadge {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.badge {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: red;
+    margin: 15px 5px 0 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.badge a{
+    text-decoration: none;
+    color: white;
+}
+
+.infoRating {
+    width: 30%;
+    margin: 20px 1.666666666666667%;
+}
+
+.infoRating h2 {
+    text-align: right;
+    color: white;
+}
+
+.overview {
+    background-color: #090909;
+    color: white;
+    border-radius: 15px;
+    width: 95%;
+    margin: 20px 0 30px 2.5%;
+    box-shadow: 0 5px 10px 5px white;
+    padding: 5px 0;
+}
+
+.videoPlayer {
+    width: 60%;
+    margin: 20px 0 20px 20%;
+}
+
+.ratingBox {
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+}
+
+.ratingBox div {
+    margin-top: -25px;
+    font-size: 15px;
+    color: white;
+}

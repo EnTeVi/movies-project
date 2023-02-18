@@ -1,0 +1,98 @@
+.siteBar {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.blockNav {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0 0 0;
+}
+
+.siteBar > a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.siteBar  a {
+    text-decoration: none;
+}
+
+.siteBar > a {
+    background-color: white;
+    color: black;
+    width: 10%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.siteBar > a[class='active'] {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 10%;
+}
+
+.dropbtn[class='active'] {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn > div {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+}
+
+.dropbtn > div:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    width: 1000%;
+    border-radius: 0 0 15px 15px;
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.dropdownContent a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdownContent {
+    display: flex;
+}

@@ -1,0 +1,28 @@
+.genres {
+    width: 98%;
+    height: 180px;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+    background-color: var(--background-color-genres);
+    box-shadow: var(--box-shadow-genres);
+}
+
+.genres:hover {
+    display: flex;
+}
+
+.genres a {
+    color: var(--color-genres-a)
+}
+
+.genreName {
+    width: 20%;
+    height: 30px;
+}
+
+
+
+

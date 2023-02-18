@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: var(--background-image);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+html[data-theme = 'dark'] {
+  --background-image: url("./images/fonlogo3.jpg");
+  --background-image-app: linear-gradient(to right, #000000, #331019, #620f24, #920728, #c20023, #c20023, #c20023, #c20023, #920728, #620f24, #331019, #000000);
+  --background-color-aut-item: black;
+  --color-aut-item: white;
+  --box-shadow-film: 0 0 5px 5px red;
+  --background-color-genres: black;
+  --box-shadow-genres: 0 5px 5px 5px white;
+  --color-genres-a: white;
+}
+
+html[data-theme = 'light'] {
+  --background-image: url("./images/logofon1.jpg");
+  --background-image-app: linear-gradient(to right, #ff0000, #d2001f, #a20027, #710826, #420f1d, #420f1d, #420f1d, #420f1d, #710826, #a20027, #d2001f, #ff0000);
+  --background-color-aut-item: white;
+  --color-aut-item: black;
+  --box-shadow-film: 0 0 5px 5px black;
+  --background-color-genres: white;
+  --box-shadow-genres: 0 5px 5px 5px black;
+  --color-genres-a: black;
 }
