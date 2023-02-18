@@ -4,7 +4,7 @@ import {filmsAction} from "../../redux";
 import {Film} from "../Film/Film";
 
 const Films = () => {
-    const [films] = useSelector(state => state.films);
+    const {films, error, loading} = useSelector(state => state.films);
     const dispatch = useDispatch();
 
     useEffect(() => {
@@ -14,7 +14,13 @@ const Films = () => {
     return (
         <div>
             {
-                films?.map(film => <Film key={film.id} film={film}/>)
+                error && JSON.stringify(error)
+            }
+            {
+                loading && <h1>Loading...</h1>
+            }
+            {
+                films.map(film => <Film key={film.id} film={film}/>)
             }
         </div>
     );
