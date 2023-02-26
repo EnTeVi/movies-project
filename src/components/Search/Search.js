@@ -44,7 +44,7 @@ const Search = () => {
                         onChange={(event) => setValue(event.target.value)}
                         onClick={inputClickHendler}
                     />
-                    <img src={lop}/>
+                    <img src={lop} alt={'search'}/>
                     <ul className={css.autocomplete}>
                         {value && isOpen ?
                             filteredFilms.map(search => {
