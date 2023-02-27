@@ -101,3 +101,14 @@
     font-size: 15px;
     color: white;
 }
+
+
+@media (max-width: 1500px) {
+    .information {
+        width: 45%;
+    }
+
+    .infoRating {
+        width: 15%;
+    }
+}

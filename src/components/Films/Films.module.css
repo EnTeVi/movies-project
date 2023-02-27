@@ -5,12 +5,36 @@
 }
 
 .pagination {
-    width: 30%;
-    margin: 30px 0 30px 35%;
+    width: 50%;
+    margin: 30px 0 30px 25%;
+    background-color: white;
+    border-radius: 10px;
+
 }
 
 .buttonPag {
+    width: 100%;
     color: black;
-    background-color: white;
-    border-radius: 10px;
+    /*background-color: white;*/
+    /*border-radius: 10px;*/
+    margin-left: 20%;
+}
+
+
+@media (max-width: 1500px) {
+    .pagination {
+        width: 50%;
+        margin: 30px 0 30px 25%;
+        background-color: white;
+        border-radius: 10px;
+
+    }
+
+    .buttonPag {
+        width: 100%;
+        color: black;
+        /*background-color: white;*/
+        /*border-radius: 10px;*/
+        margin-left: 10%;
+    }
 }

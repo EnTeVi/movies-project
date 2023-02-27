@@ -34,8 +34,6 @@
     color: red;
     text-shadow: 5px 5px 10px red;
     font-weight: 600;
-    border: 2px solid black;
-
 }
 
 .oneLetter {
@@ -82,13 +80,42 @@
     height: 60px;
     border-radius: 50%;
     box-shadow: 0 0 5px 5px red;
-    margin: 20px 0 0 5%;
+    margin: 20px 5% 0 2.5%;
 }
 
 .auth h3 {
     color: white;
     font-size: 20px;
-    margin: 35px 0 0 65%;
+    margin: 35px 2.5% 0 55%;
+}
+
+
+@media (max-width: 1500px) {
+    .logo img {
+        width: 60px;
+        height: 60px;
+        margin: 20px 20px 0 20px;
+    }
+
+    .logo h1 {
+        margin: 20px 0 0 5px;
+    }
+
+    .oneLetter {
+        font-size: 50px;
+    }
+
+    .twoLetter {
+        font-size: 46px;
+    }
+
+    .threeLetter {
+        font-size: 42px;
+    }
+
+    .fourLetter {
+        font-size: 38px;
+    }
 }
 
 

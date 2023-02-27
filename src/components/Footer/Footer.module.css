@@ -24,3 +24,10 @@
     width: 33.333%;
     height: 100px;
 }
+
+
+@media (max-width: 1500px){
+    .boxText {
+        font-size: 15px;
+    }
+}

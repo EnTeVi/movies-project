@@ -51,5 +51,13 @@
   cursor: pointer;
 }
 
+.MuiPagination-ul {
+  width: 60%;
+}
 
 
+@media (max-width: 1500px) {
+  .MuiPagination-ul {
+    width: 80%;
+  }
+}
