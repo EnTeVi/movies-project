@@ -16,17 +16,17 @@
 .infoPoster img {
     width: 80%;
     border-radius: 20px;
-    box-shadow: 0 5px 10px 5px white;
+    box-shadow: var(--box-shadow-infoPosterImg);
 }
 
 .information {
     width: 30%;
     margin: 20px 1.666666666666667%;
     text-align: left;
-    background-color: black;
-    color: white;
     border-radius: 20px;
-    box-shadow: 0 5px 10px 5px white;
+    box-shadow: var(--box-shadow-information);
+    background-color: var(--background-color-information);
+    color: var(--color-information);
 }
 
 .information > div {
@@ -53,6 +53,7 @@
     padding: 2px;
     border-radius: 5px;
     background-color: red;
+    border: 1px solid black;
     margin: 15px 5px 0 5px;
     color: white;
     font-size: 20px;
@@ -76,13 +77,13 @@
 }
 
 .overview {
-    background-color: #090909;
-    color: white;
     border-radius: 15px;
     width: 95%;
     margin: 20px 0 30px 2.5%;
-    box-shadow: 0 5px 10px 5px white;
     padding: 5px 0;
+    background-color: var(--background-color-overview);
+    color: var(--color-overview);
+    box-shadow: var(--box-shadow-overview);
 }
 
 .videoPlayer {
