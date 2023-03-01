@@ -31,6 +31,10 @@ const Search = () => {
         setIsOpen(true);
     }
 
+    const inputonBlur = (e) => {
+        setIsOpen(false);
+    }
+
     return (
         <div className={css.search}>
 
@@ -43,6 +47,7 @@ const Search = () => {
                         value={value}
                         onChange={(event) => setValue(event.target.value)}
                         onClick={inputClickHendler}
+                        onBlur={inputonBlur}
                     />
                     <img src={lop} alt={'search'}/>
                     <ul className={css.autocomplete}>
