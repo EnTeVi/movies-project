@@ -33,6 +33,7 @@ const Search = () => {
 
     const inputonBlur = (e) => {
         setIsOpen(false);
+        setValue('');
     }
 
     return (
